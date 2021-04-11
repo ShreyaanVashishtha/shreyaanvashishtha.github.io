@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Weather by Dark Sky API</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather</title>
+  <!-- <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/weather-icons.min.css"> -->
+
+</head>
+
+<div class="city ">
+
+  <div class="container">
+
+    <div class="city-title ">
+      <span id="location"> </span>
+    </div>
+    <hr />
+    <div class="city-weather-temperature loader">
+      <span class="celsius fahrenheit-btn "></span>
+      <span class="fahrenheit celsius-btn"></span>
+    </div>
+
+    <div class="city-weather-description">
+      <span id="icon"></span><br>
+      <span id="description"></span>
+    </div>
+
+    <div class="bottom">
+      <div class="nav-info clearfix">
+        <div class="add-info">
+          <ul id="details">
+            <li>
+             <span id="todayC"> </span>
+              <span id="todayF"> </span>
+            </li>
+            <li>
+              <span id="tomorrowC"> </span>
+              <span id="tomorrowF"> </span>
+            </li>
+            <li>
+              <span id="afterTomorrowC"> </span>
+              <span id="afterTomorrowF"> </span>
+            </li>
+            <li>
+              <span id="afterAfterTomorrowC"> </span>
+              <span id="afterAfterTomorrowF"> </span>
+            </li>
+            
+          </ul>
+            
+        </div>  <!-- add-info -->
+        <div><span class="date"> </span> <a href="http://forecast.io" id="forio">Powered by Dark Sky</a></div>
+      </div> <!-- nav-info -->
+
+    </div> <!-- bottom -->
+
+  </div>
+</div>
+
+
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
